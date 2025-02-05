@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
+  />
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="https://sad.adsgram.ai/js/sad.min.js"></script>
+  <script src="https://dvq1zz1g273yl.cloudfront.net/buyer_v1.0.3.min.js" traffy-key="275"></script>
+  <script src="https://dvq1zz1g273yl.cloudfront.net/index_v1.1.0.min.js" traffy-key="0a04494307b85abc533f4560e192dd9450e1a75fa6da820fca9d791b8394165a"></script>
+  <script src="https://static.sonartech.io/lib/1.0.0/sonar.js?appId=app_c635db3d"></script>
+  <title>TG Steps</title>
+  <style>
+    #loader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: black;
+      z-index: 9999;
+    }
+    .spinner {
+      width: 50px;
+      height: 50px;
+      border: 5px solid #ccc;
+      border-top-color: #007bff;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin-bottom: 20px;
+    }
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    #progress-bar {
+      width: 80%;
+      height: 10px;
+      margin-top: 30px;
+      background: #ccc;
+      border-radius: 5px;
+      overflow: hidden;
+      position: relative;
+    }
+    #progress-bar div {
+      width: 0%;
+      height: 100%;
+      background: #007bff;
+      transition: width 1s linear;
+    }
+  </style>
+  <script type="module" crossorigin src="./assets/index-B6mcdtgH.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CzSUh7b8.css">
+</head>
+<body>
+<div id="loader">
+  <div class="spinner"></div>
+  <div id="progress-bar"><div></div></div>
+</div>
+<div id="root"></div>
+
+
+</body>
+</html>
